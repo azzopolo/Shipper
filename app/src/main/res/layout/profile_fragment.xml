@@ -1,0 +1,181 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/swipe_refresh"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="@dimen/one_twenty"
+                android:layout_height="@dimen/one_twenty"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/five"
+                android:src="@drawable/icon"
+                app:civ_border_color="@color/btnRequest"
+                app:civ_border_overlay="false"
+                app:civ_border_width="2dp" />
+
+            <ProgressBar
+
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/fourty_five"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/profile_pic"
+                android:layout_marginTop="@dimen/margin_10">
+
+                <LinearLayout
+                    android:id="@+id/parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Driver Name">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/input_name"
+                            style="@style/EditText.Login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/margin_10"
+                            android:text="driver name"
+                            android:textStyle="normal"
+                            android:theme="@style/EditText.Login" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="EMAIL">
+
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/input_email"
+                            style="@style/EditText.Login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:enabled="false"
+                            android:padding="@dimen/margin_10"
+                            android:text="email  "
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:theme="@style/EditText.Login" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="VEHICLE">
+
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/input_vehicle"
+                            style="@style/EditText.Login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/margin_10"
+                            android:text="Vehicle  "
+
+                            android:textStyle="normal"
+                            android:theme="@style/EditText.Login" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="MOBILE NUMBER">
+
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/input_mobile"
+                            style="@style/EditText.Login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/margin_10"
+                            android:text="change mobile"
+                            android:textStyle="normal"
+                            android:theme="@style/EditText.Login" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="PAYPAL ID">
+
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/input_paypal_id"
+                            style="@style/EditText.Login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/margin_10"
+                            android:text="Paypal Id"
+                            android:textStyle="normal"
+                            android:theme="@style/EditText.Login" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_update"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/parent"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:background="@drawable/ripple_effect"
+                        android:text="@string/update"
+                        android:textColor="@color/black" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_change"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/parent"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_weight="1"
+                        android:background="@drawable/ripple_effect"
+                        android:text="@string/change_password"
+                        android:textColor="@color/black" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

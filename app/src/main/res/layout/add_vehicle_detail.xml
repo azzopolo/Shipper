@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/parent"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_fifty">
+
+                <ImageView
+                    android:id="@+id/vehicle_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/one_fifty"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/car" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/one_fifty"
+                    android:background="@drawable/imageview_shadow" />
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parent"
+
+                android:orientation="vertical">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/five">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/input_brand"
+                        style="@style/EditText.Login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="BRAND"
+                        android:padding="@dimen/twelve"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textStyle="bold"
+                        android:theme="@style/EditText.Login" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/five">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/input_vehicleno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="VEHICLE NO"
+                        android:theme="@style/EditText.Login"
+                        style="@style/EditText.Login"
+                        android:padding="@dimen/twelve"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textStyle="bold" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/five">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/input_model"
+                        style="@style/EditText.Login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="MODEL"
+                        android:padding="@dimen/twelve"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textStyle="bold"
+                        android:theme="@style/EditText.Login" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/five">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/input_year"
+
+                        style="@style/EditText.Login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:hint="YEAR"
+                        android:padding="@dimen/twelve"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textStyle="bold"
+                        android:theme="@style/EditText.Login" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/five">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/input_color"
+                        style="@style/EditText.Login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:hint="COLOR"
+                        android:padding="@dimen/twelve"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textStyle="bold"
+                        android:theme="@style/EditText.Login" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:cardCornerRadius="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/five">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/input_interirorcolor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/test"
+                            android:hint="INTERIOR COLOR "
+                            android:padding="@dimen/twelve"
+                            android:textColor="@color/black"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:textStyle="bold" />
+                    </android.support.design.widget.TextInputLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_continue"
+                    style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/twelve"
+                    android:layout_marginTop="@dimen/five"
+                    android:background="@drawable/ripple_effect"
+                    android:padding="@dimen/five"
+                    android:text="CONTINUE" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
