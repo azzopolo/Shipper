@@ -1,38 +1,38 @@
 <resources>
-    <string name="app_name">Shipper</string>
-    <string name="navigation_drawer_open">open</string>
-    <string name="navigation_drawer_close">close</string>
+    <string name="app_name">GÖNDERİNGİTSİN</string>
+    <string name="navigation_drawer_open">açık</string>
+    <string name="navigation_drawer_close">kapalı</string>
     <string name="google_android_map_api_key">AIzaSyAlBu8MsC7jxJ68rpRR722Ojl_HQiWpnhQ</string>
     <string name="mapboxkey">pk.eyJ1IjoibW9iaWx5IiwiYSI6ImNqazg1ZDVrcDJncm4zbG50amJ2ajlndHUifQ.S2wUDKwDh1s-f6fla_Rsrw</string>
 
-    <string name="mobile_number">Mobile Number</string>
-    <string name="email">Email</string>
-    <string name="name">Name</string>
-    <string name="password">Password</string>
-    <string name="confirm_password">Confirm Password</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="sign_in">Sign In</string>
-    <string name="drop_up_location">drop up location</string>
-    <string name="pick_up_location">pick up location</string>
-    <string name="update">Update</string>
-    <string name="online">you are online</string>
-    <string name="offline">you are offline</string>
+    <string name="mobile_number">Cep Numarası</string>
+    <string name="email">E-posta</string>
+    <string name="name">Ad Soyad</string>
+    <string name="password">Şifre</string>
+    <string name="confirm_password">Şifre doğrulama</string>
+    <string name="sign_up">Taşımacı Ol</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="drop_up_location">Çıkış Noktaso</string>
+    <string name="pick_up_location">Varış Noktası</string>
+    <string name="update">Güncelle</string>
+    <string name="online">Çevrim içisiniz</string>
+    <string name="offline">Çevrim dışınız</string>
     <string name="order_id_mock" translatable="false"># 1234–5678</string>
-    <string name="price_mock" translatable="false">$25</string>
+    <string name="price_mock" translatable="false">25YTL</string>
     <string name="requests_count_mock" translatable="false">5</string>
-    <string name="requests_count_badge" translatable="false">REQUESTS</string>
-    <string name="weight_mock" translatable="false">50 oz</string>
-    <string name="weight_badge" translatable="false">WEIGHT</string>
-    <string name="pledge_mock" translatable="false">$150</string>
-    <string name="pledge_badge" translatable="false">PLEDGE</string>
-    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="requests_count_badge" translatable="false">İHALELER</string>
+    <string name="weight_mock" translatable="false">50 </string>
+    <string name="weight_badge" translatable="false">AĞIRLIK</string>
+    <string name="pledge_mock" translatable="false">150</string>
+    <string name="pledge_badge" translatable="false">TAAHHÜD</string>
+    <string name="sender_badge" translatable="false">GÖNDER</string>
     <string name="client_name_mock" translatable="false">Edward Norton</string>
     <string name="rating_mock" translatable="false">(26)</string>
     <string name="from_badge" translatable="false">FROM</string>
     <string name="to_badge" translatable="false">TO</string>
-    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_date_badge" translatable="false">DAĞITIM TARİHİ</string>
     <string name="delivery_time_mock" translatable="false">6:30 pm</string>
-    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2019</string>
     <string name="deadline_badge" translatable="false">REQUEST DEADLINE</string>
     <string name="deadline_time_mock" translatable="false">24 minutes</string>
     <string name="request_btn_text" translatable="false">REQUEST</string>
@@ -108,28 +108,28 @@
     <string name="brand">BRAND</string>
     <string name="vehicle_no">VEHICLE NO</string>
     <string name="model">MODEL</string>
-    <string name="year">YEAR</string>
-    <string name="color">COLOR</string>
-    <string name="continuee">CONTINUE</string>
+    <string name="year">YILI</string>
+    <string name="color">RENK</string>
+    <string name="continuee">DEVAM</string>
     <string name="interior_color">INTERIOR COLOR</string>
-    <string name="data_notfound">No Data Found</string>
+    <string name="data_notfound">Uygun İhale Bulunamadı</string>
     <string name="from">FROM</string>
     <string name="to">TO</string>
     <string name="date">DATE</string>
     <string name="time">TIME</string>
-    <string name="customer_name">CUSTOMER NAME</string>
-    <string name="taxigo">TexiGO</string>
-    <string name="affordable">Affordable,everyday rides</string>
-    <string name="customer_number">Customer Number</string>
-    <string name="approve_payment_offline">Approve offline Payment</string>
-    <string name="Start_Ride">Start Ride</string>
-    <string name="network_not_available">network not available</string>
-    <string name="password_required">password is required</string>
-    <string name="coh_driver">Cash on Hand</string>
-    <string name="Pick_Customer">Pick Customer</string>
-    <string name="Ride_Started">Ride Started</string>
+    <string name="customer_name">İHALE OLUŞTURAN</string>
+    <string name="taxigo">GÖNDERİNGİTSİN</string>
+    <string name="affordable">Uygun İhaleler</string>
+    <string name="customer_number">Gönderici Numarası</string>
+    <string name="approve_payment_offline">Çevrimdışı Ödeme Onayı</string>
+    <string name="Start_Ride">Yola Çıkar</string>
+    <string name="network_not_available">İnternet Bağlantınız yok</string>
+    <string name="password_required">Şifre zorunlu</string>
+    <string name="coh_driver">Nakit Öde</string>
+    <string name="Pick_Customer">Yük Al</string>
+    <string name="Ride_Started">Yolculuk Başlat</string>
     <string name="format_msg">only support jpg,jpeg anf gif</string>
-    <string name="payment_receive_from_customer">Payment Received From Customer</string>
+    <string name="payment_receive_from_customer">İhale</string>
 
 
 </resources>
