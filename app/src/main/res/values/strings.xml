@@ -44,7 +44,7 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="unpaid">UNPAID</string>
     <string name="error_occurred">error occurred</string>
-    <string name="network">network is not available</string>
+    <string name="network">İnternet Bağlantınız Yok</string>
     <string name="add_vehicleinfo">Add Vehicle Information</string>
     <string name="upload_doc">Upload Document</string>
     <string name="home">Panelim</string>
@@ -66,7 +66,7 @@
     <string name="ride_reuest_completed">ride request completed</string>
     <string name="ride_reuest_cancelled">ride request cancelled</string>
     <string name="accepted_request">Accepted Request</string>
-    <string name="ccancel">Cancel</string>
+    <string name="ccancel">İptal</string>
     <string name="ok">OK</string>
     <string name="ride_completion">RIDE COMPLETION</string>
     <string name="ride_cancellation">RIDE CANCELLATION</string>
@@ -87,7 +87,7 @@
     <string name="profile_uploaded">profile uploaded</string>
     <string name="change">DEĞİŞTİR</string>
     <string name="newpwd_required">new password is required</string>
-    <string name="password_updated">password Updated</string>
+    <string name="password_updated">Şifre Güncelle</string>
     <string name="failed_toupdate">Failed to update information</string>
     <string name="info_updated">Information updated</string>
     <string name="ride_accept_msg">Do you want to accept your pending ride?</string>
@@ -105,13 +105,13 @@
     <string name="pickup_location">Pickup Location&#032;&#032;&#032;&#032;&#032;&#032;&#032;</string>
     <string name="basefare">Base Fare&#032;&#032;&#032;&#032;&#032;&#032;&#032;</string>
     <string name="capacity">Capacity&#032;&#032;&#032;&#032;&#032;&#032;&#032;</string>
-    <string name="brand">BRAND</string>
-    <string name="vehicle_no">VEHICLE NO</string>
+    <string name="brand">MARKA</string>
+    <string name="vehicle_no">PLAKA NO</string>
     <string name="model">MODEL</string>
     <string name="year">YILI</string>
     <string name="color">RENK</string>
     <string name="continuee">DEVAM</string>
-    <string name="interior_color">INTERIOR COLOR</string>
+    <string name="interior_color">İÇ RENK</string>
     <string name="data_notfound">Uygun İhale Bulunamadı</string>
     <string name="from">FROM</string>
     <string name="to">TO</string>
